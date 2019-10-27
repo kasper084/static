@@ -1,0 +1,75 @@
+body {
+    background-color: #e7e8ed;
+    height: 100%;
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: solid 2px #dbdae2;
+}
+
+main {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#center-box {
+    background-color: #ffffff;
+    width: 480px;
+    min-height: 250px;
+}
+
+.bar {
+    display: grid;
+    grid-template-columns: 100px auto 100px;
+    text-align: center;
+}
+
+.menu, .text {
+    text-align: center;
+    padding: 32px 32px 18px 32px;
+    border-right: solid 2px #dbdae2;
+}
+
+.bell {
+    text-align: center;
+    padding: 32px 32px 18px 32px;
+}
+
+#center-box {
+    margin: 0 auto;
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows:100px 75px 75px;
+}
+
+.edit {
+    display: grid;
+    grid-template-columns: 95% auto;
+    padding: 24px 32px 0 32px;
+    border-bottom: solid 1px #dbdae2;
+}
+
+.pen {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.change { 
+    display: grid;
+    grid-template-columns: 95% auto;
+    padding: 24px 32px 0 32px;
+    border-bottom: solid 1px #dbdae2;
+}
+
+.out {
+    display: grid;
+    grid-template-columns: 95% auto;
+    padding: 24px 32px 0 32px;
+}
+
+.arrow {
+    text-align: center;
+}

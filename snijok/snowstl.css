@@ -1,0 +1,161 @@
+body {
+    height: 100%;
+    background-color: #f6f6f6;
+}
+header {
+    background-color: #ffffff;
+}
+.hhh {
+    padding: 0 4.5rem 0 4.5rem;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.snowpic {
+    padding: 1.5rem 1.5rem 1.5rem 0rem;
+}  
+.navhead {
+    text-align: right;
+    padding: 1.5rem 0 1.5rem 0;
+}
+.navhead nav {
+    text-align: right;
+}
+.navhead a {
+    font-size: 0.875rem;
+    font-family: 'Work Sans', sans-serif;
+    color: #b4b4b4;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 2rem;
+}
+.navhead :hover {
+    color: goldenrod;
+}
+.navhead :nth-child(4) {
+    color: black;
+}
+.abowf {
+    background-color: #ffffff;
+    padding: 0.5rem;
+    height: 4rem;
+    text-align: center;
+}
+.blit{
+    padding: 1.5rem;
+}
+.blit p {
+    font-size: 0.875rem;
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.ftr {
+    text-align: center;
+}
+.links {
+    padding-top: 2rem;
+}
+.links a {
+    text-decoration: none;
+    color: rgb(95, 95, 95);    
+}
+.links img {
+    padding: 0.3rem;
+} 
+.copyright {
+    font-size: 0.875rem;
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(95, 95, 95);
+    padding: 1.7rem 0rem 3rem 0rem;
+}
+.fff {
+    border: 1px solid transparent;
+    padding: 2rem;
+}
+.wtfbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 2.5px;
+}.wtf1 {
+    text-align: right;
+    padding-right: 1.75px
+}
+.wtf3 {
+    text-align: right;
+    padding-right: 1.75px
+}
+#V {
+    border: 1px solid transparent;
+    display: grid;
+    grid-template-columns: 4.5rem 1fr 4.5rem;
+    padding-bottom: 4rem;
+}
+.zzz {
+    grid-column: 2;
+    display: grid;
+    border: 1px solid transparent;
+    grid-template-rows: auto;
+    grid-template-columns: minmax(11.5rem,23rem) minmax(11.5rem,23rem) minmax(11.5rem,23rem);
+    grid-gap: 1.5rem;
+    grid-auto-flow: dense;
+}
+.smal1 {
+    overflow: hidden;
+}
+.spic {
+    min-height: 11.5rem;
+    background-color: #dfdfdf;
+    padding: 0;
+    position: relative;
+    min-height: auto;
+}
+.spic img {
+    max-height: 25rem;
+    max-width: 23rem;
+    min-width: auto;
+}
+.littledirtybastard {
+    background-color: #000000;
+    width: 5.6rem;
+    height: 2rem;
+    text-align: center;
+    position: absolute;
+    left: 0.5rem;
+    bottom: 0.5rem;
+}
+.littledirtybastard a {
+    text-decoration: none;
+    color:  rgb(255, 255, 255);
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    line-height: 2;
+}
+.tbox {
+    background-color: #ffffff;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    height: 9rem;
+}
+.tbox :nth-child(1) {
+    font-family: 'Playfair Display', serif;
+    color: rgb(23, 23, 23);
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 1.2;
+}
+.tbox :nth-child(2) {
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(23, 23, 23);
+    text-transform: uppercase;
+    font-size:0.75rem;
+    line-height: 4;    
+    font-weight: bold;
+}
+.tbox :nth-child(3) {
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(95, 95, 95);
+    line-height: 1.6;
+    font-size: 0.9rem;
+    text-align: left;
+} 
